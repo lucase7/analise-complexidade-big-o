@@ -45,6 +45,50 @@ O(n²)
 ### Justificativa
 O primeiro bloco é O(n), mas o segundo bloco possui dois loops aninhados (O(n²)). Como na análise assintótica consideramos o termo dominante, a complexidade final é O(n²).
 
+## Exercício 6 
+
+### Complexidade
+O(log n)
+
+### Justificativa
+A variável i é multiplicada por 2 a cada iteração. Isso significa que o número de repetições cresce logaritmicamente em relação a n.
+
+## Exercício 7
+
+### Complexidade
+O(2ⁿ)
+
+### Justificativa
+Cada chamada recursiva gera duas novas chamadas (n-1 e n-2). Isso cria uma árvore de recursão exponencial, fazendo o tempo crescer aproximadamente como 2ⁿ.
+
+## Exercício 8
+
+### Complexidade
+O(n²)
+
+### Justificativa
+O algoritmo possui dois loops aninhados que percorrem a lista. No pior caso, todos os elementos são comparados múltiplas vezes, resultando em crescimento quadrático.
+
+## Exercício 9
+
+### Complexidade
+O(n³)
+
+### Justificativa
+A função possui três loops aninhados que percorrem a matriz de tamanho n × n. Isso resulta em n × n × n operações.
+
+## Exercício 10
+
+### Complexidade
+O(n log n)
+
+### Justificativa
+O algoritmo divide a lista em duas partes recursivamente (log n níveis) e realiza a intercalação em tempo linear (n) em cada nível. O resultado é n × log n.
+
+
+
+
+
 
 
 
